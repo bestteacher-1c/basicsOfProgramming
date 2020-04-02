@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="27804162-0936-4a2b-b61a-c53889fc5f27">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="27804162-0936-4a2b-b61a-c53889fc5f27">
   <producedTypes>
     <objectType typeId="d63d523d-9297-47ca-a86c-156005bbd0c4" valueTypeId="0e0ad228-23dd-4592-8b28-a4d165bf458c"/>
     <refType typeId="c4f5ef24-9a4d-403c-8ea1-069b71c03ca7" valueTypeId="39d2efd1-cc6c-4532-b93b-7d40a29c0361"/>
@@ -21,13 +21,22 @@
   <fullTextSearch>Use</fullTextSearch>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
-  <codeLength>9</codeLength>
+  <codeLength>3</codeLength>
   <descriptionLength>25</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="3e42813b-fea7-4ddf-b522-76c9c5cdf760">
+      <name>ОсновнаяОрганизация</name>
+      <description>Основная организация</description>
+      <code xsi:type="core:StringValue">
+        <value>001</value>
+      </code>
+    </items>
+  </predefined>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
 </mdclass:Catalog>

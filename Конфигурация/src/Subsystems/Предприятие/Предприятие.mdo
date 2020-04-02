@@ -10,4 +10,6 @@
   <picture xsi:type="core:PictureRef">
     <picture>CommonPicture.Предприятие</picture>
   </picture>
+  <content>Catalog.Организации</content>
+  <content>Catalog.Валюты</content>
 </mdclass:Subsystem>
