@@ -37,4 +37,6 @@
   <commonPictures>CommonPicture.Продажи</commonPictures>
   <commonPictures>CommonPicture.Закупки</commonPictures>
   <commonPictures>CommonPicture.Сервис</commonPictures>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.Валюты</catalogs>
 </mdclass:Configuration>
